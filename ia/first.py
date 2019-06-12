@@ -6,7 +6,7 @@ import pandas as pd
 # fix random seed for reproducibility
 seed = 7
 numpy.random.seed(seed)
-# load pima indians dataset
+# load pima" indians dataset
 dataset = numpy.loadtxt("https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv", delimiter=",")
 # split into input (X) and output (Y) variables
 X = dataset[:,0:8]
